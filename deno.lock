@@ -9,9 +9,11 @@
       "npm:express": "npm:express@4.18.2",
       "npm:express@^4.18.2": "npm:express@4.18.2",
       "npm:joi": "npm:joi@17.11.0",
+      "npm:joi@17.11.0": "npm:joi@17.11.0",
       "npm:prisma": "npm:prisma@5.5.2",
       "npm:prisma@^4.5": "npm:prisma@4.16.2",
       "npm:prisma@^5.5.2": "npm:prisma@5.5.2",
+      "npm:validator": "npm:validator@13.11.0",
       "npm:winston": "npm:winston@3.11.0"
     },
     "npm": {
@@ -647,6 +649,10 @@
       },
       "utils-merge@1.0.1": {
         "integrity": "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==",
+        "dependencies": {}
+      },
+      "validator@13.11.0": {
+        "integrity": "sha512-Ii+sehpSfZy+At5nPdnyMhx78fEoPDkR2XW/zimHEL3MyGJQOCQ7WeP20jPYRz7ZCpcKLB21NxuXHF3bxjStBQ==",
         "dependencies": {}
       },
       "vary@1.1.2": {

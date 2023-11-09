@@ -3,13 +3,14 @@
 
 generator client {
   provider = "prisma-client-js"
-  previewFeatures = ["deno"]
+  previewFeatures = ["deno", "fullTextSearch", "fullTextIndex"]
   output = "../generated/client"
 }
 
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model User {
@@ -17,4 +18,5 @@ model User {
   name String @unique
   email String
   password String
+  refreshToken String?
 }
